@@ -1,5 +1,4 @@
 import Loading from '@/animation/Loading'
-import ParticleSystem from '@/animation/Particles'
 import Navbar from '@/components/Navbar'
 import { lazy, Suspense } from 'react'
 
