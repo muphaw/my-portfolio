@@ -1,6 +1,6 @@
 import Logo from "@/assets/logo.svg";
 import SpaceButton from "@/animation/SpaceButton";
-import { useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi"; 
 import { Button } from "./ui/button";
 
@@ -27,8 +27,8 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   return (
-    <nav
-      className={`bg-transparent px-6 mx-auto lg:px-4 xl:px-10 sticky top-0 z-100 transition-transform duration-500 ${
+    <nav 
+      className={`bg-transparent px-6 mx-auto lg:px-4 xl:px-10 sticky top-0 z-[9999] transition-transform duration-500 ${
         showNavbar ? "translate-y-0" : "-translate-y-full"
       }`}
     >
