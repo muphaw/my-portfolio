@@ -70,21 +70,30 @@ const Contact = () => {
         </h1>
         <div className="flex-grow h-px bg-gray-500 silver-glow w-full md:w-auto"></div>
         <div className="flex gap-4 mt-4 md:mt-0">
-          <img
+            <a href="https://github.com/muphaw" target="_blank" rel="noopener noreferrer">
+            <img
             src={githubIcon}
             className="w-8 h-8 rounded-sm bg-gray-300 hover:bg-gray-50 hover:scale-110 active:scale-95 transition-all duration-400"
             alt="GitHub"
           />
-          <img
+            </a>
+            <a href="https://www.linkedin.com/in/mu-phaw-6a037b259/" target="_blank" rel="noopener noreferrer">
+            <img
             src={twitterIcon}
             className="w-8 h-8 rounded-sm bg-gray-300 hover:bg-gray-50 hover:scale-110 active:scale-95 transition-all duration-400"
             alt="Twitter"
           />
-          <img
+          </a>
+          
+          <a href="https://www.linkedin.com/in/mu-phaw-6a037b259/" target="_blank" rel="noopener noreferrer">
+            <img
             src={linkedinIcon}
             className="w-8 h-8 rounded-sm bg-gray-300 hover:bg-gray-50 hover:scale-110 active:scale-95 transition-all duration-400"
             alt="LinkedIn"
           />
+          </a>
+
+          
         </div>
       </div>
     </div>
