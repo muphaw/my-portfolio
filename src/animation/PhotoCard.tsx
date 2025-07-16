@@ -8,7 +8,7 @@ const PhotoCard = () => {
           <div className="back">
             <div className="back-content">
               <img 
-            src="/public/me.jpg" 
+            src="/me.jpg" 
             alt="Profile" 
             className="w-full  h-70 shadow-lg object-cover p-1"
           />

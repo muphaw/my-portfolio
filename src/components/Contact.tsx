@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="text-center lg:text-left ">
           <div className="flex flex-col sm:flex-row md:items-center items-center sm:items-center justify-center lg:justify-start">
             <img
-              src="/public/me.jpg"
+              src="/me.jpg"
               className="w-25 h-25 rounded-full object-cover mb-4 sm:mb-0 sm:mr-4 "
               alt="Profile"
             />
