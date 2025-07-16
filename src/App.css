@@ -1,0 +1,77 @@
+.orb-font{
+  font-family: "Orbitron", sans-serif;
+}
+.space-font{
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.silver-text {
+  color: #c0c0c0; /* classic silver-like text */
+}
+
+.silver-glow {
+  text-shadow: 0 0 10px rgba(192, 192, 192, 0.6);
+}
+.sliver-bg {
+  background-color: #d7d7d7;
+}
+.line{
+  border-bottom: 2px solid rgb(81, 81, 81);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  @keyframes bounce-in {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .animate-bounce-in {
+    animation: bounce-in 0.6s ease-out forwards;
+  }
+}
+
+/* From Uiverse.io by Kabak */ 
+.conn {
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  /* font-family: Consolas, Courier New, monospace; */
+  border: solid #404c5d 1px;
+  /* font-size: 16px; */
+  color: rgb(161, 161, 161);
+
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  box-shadow: 5px 5px 10px #41465b,5px -5px 10px #41465b, -5px -3px 10px #41465b,-5px 3px 10px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+}
+
+
+@keyframes earthRotate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+
+
