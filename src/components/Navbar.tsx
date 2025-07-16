@@ -36,7 +36,7 @@ const Navbar = () => {
         <img src={Logo} className="h-16" alt="Logo" />
 
         {/* Desktop nav */}
-        <ul className="hidden md:flex justify-between items-center gap-8 text-white text-md orb-font">
+        <ul className="hidden md:flex justify-between items-center gap-8 text-gray-200 text-md orb-font">
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>

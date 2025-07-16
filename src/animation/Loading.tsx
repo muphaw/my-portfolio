@@ -606,7 +606,7 @@ const StyledWrapper = styled.div`
     }
 
     64% {
-      background-color: rgba(51, 51, 51,1);
+      background-color: white;
       -webkit-transform: rotateZ(35deg) translateY(0px);
       transform: rotateZ(35deg) translateY(0px);
     }
@@ -632,7 +632,7 @@ const StyledWrapper = styled.div`
     }
 
     64% {
-      background-color: rgba(51, 51, 51,1);
+      background-color: white;
       -webkit-transform: rotateZ(-65deg) translateY(0px);
       transform: rotateZ(-65deg) translateY(0px);
     }
@@ -664,7 +664,7 @@ const StyledWrapper = styled.div`
     }
 
     64% {
-      background-color: rgba(51, 51, 51,1);
+      background-color: white;
       -webkit-transform: rotateZ(-75deg) translateY(0px);
       transform: rotateZ(-75deg) translateY(0px);
     }
@@ -696,7 +696,7 @@ const StyledWrapper = styled.div`
     }
 
     64% {
-      background-color: rgba(51, 51, 51,1);
+      background-color: white;
       -webkit-transform: rotateZ(-25deg) translateY(0px);
       transform: rotateZ(-25deg) translateY(0px);
     }
@@ -728,7 +728,7 @@ const StyledWrapper = styled.div`
     }
 
     64% {
-      background-color: rgba(51, 51, 51,1);
+      background-color: white;
       -webkit-transform: rotateZ(65deg) translateY(0px);
       transform: rotateZ(65deg) translateY(0px);
     }
