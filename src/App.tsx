@@ -21,7 +21,7 @@ function App() {
       <AnimatePresence>
         {isLoading && (
           <motion.div
-            className="fixed inset-0 flex items-center justify-center bg-gray-700  z-50"
+            className="fixed inset-0 flex items-center justify-center bg-gray-800  z-50"
             initial={{ y: 0, opacity: 1 }}
             animate={{ y: 0,  opacity: 1}}
             exit={{ y: '-100%', opacity: 1, transition: { duration: 1.2 } }}
