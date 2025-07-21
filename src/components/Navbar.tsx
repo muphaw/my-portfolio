@@ -3,11 +3,18 @@ import SpaceButton from "@/animation/SpaceButton";
 import {  useEffect, useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi"; 
 import { Button } from "./ui/button";
+import { useVisibility } from "@/context/VisibilityContext";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isOpen, setIsOpen] = useState(false); 
+
+  const {isWhiteDiv} = useVisibility()
+
+    useEffect(() => {
+    console.log('Navbar color state changed:', isWhiteDiv);
+  }, [isWhiteDiv]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,10 +40,10 @@ const Navbar = () => {
       }`}
     >
       <div className="flex items-center justify-between py-4">
-        <img src={Logo} className="h-16" alt="Logo" />
+        <img src={Logo} className={`h-16 ${isWhiteDiv ? 'filter brightness-0' : ' '}`} alt="Logo" />  {/* make this logo black with (filter abd brightness-0) */}
 
         {/* Desktop nav */}
-        <ul className="hidden md:flex justify-between items-center gap-8 text-gray-200 text-md orb-font">
+        <ul className={`hidden md:flex justify-between items-center gap-8  ${isWhiteDiv ? 'text-gray-800' : 'text-gray-200'}  text-md orb-font`}>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>

@@ -91,7 +91,7 @@ const MagneticSkills = () => {
 
   return (
     <div className="flex justify-center items-start h-[300px]  backdrop-blur">
-      <div className="grid grid-cols-9 grid-rows-3 gap-4 w-[900px] ">
+      <div className="grid grid-cols-9 grid-rows-3 gap-4  mr-5">
         {icons.map((icon, i) => (
           <div
             key={i}

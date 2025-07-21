@@ -3,10 +3,8 @@ import { motion } from "framer-motion";
 const Earth = () => {
   return (
     <>
-    <motion.div className="section-banner"
+    <motion.div className="section-banner h-[150px] w-[150px] sm:w-[190px] sm:h-[190px] md:h-[250px] md:w-[250px]"
     style={{
-  height: '250px',
-  width: '250px',
   position: 'relative',
   transform: 'rotate(-35deg)',
   transition: 'left 0.3s linear',
